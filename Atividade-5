@@ -1,0 +1,9 @@
+
+5) Escreva um programa que inverta os caracteres de um string.
+
+def inverter_string(string):
+    return string[::-1]
+
+inputUser = input("Digite uma string para inverter: ")
+resultado = inverter_string(inputUser)
+print("String invertida:", resultado)
