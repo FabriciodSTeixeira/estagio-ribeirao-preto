@@ -1,12 +1,15 @@
-indice = 13
-soma = 0
-K = 0
+def fibonacci(n):
+    a, b = 0,1
+    if n == 0:
+        return True
+    while b<n:
+        a,b= b,a+b
+    return b == n
 
-while K < indice:
-    K = K +1
-    soma = soma + K
-    print(soma)
-
-print(soma)
+numero = 5
+if fibonacci(numero):
+    print(f"O número {numero} pertence a sequência de Fibonacci.")
+else:
+    print(f"O número {numero} não faz parte a sequência.")
 
 //Código feito na linguagem Python/Pycharm
